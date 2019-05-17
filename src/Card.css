@@ -1,0 +1,77 @@
+.profile img {
+  width: 150px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 35px;
+  align-items: center;
+}
+.text {
+  align-items: center;
+  text-align: center;
+}
+.design {
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 0 90px 18px 130px;
+  padding: 10px 10px;
+  color: rgb(126, 125, 125);
+  background-color: rgb(235, 235, 235);
+  font-size: 5mm;
+  width: 130px;
+}
+.pics img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: -5px;
+  padding: -20px;
+  border: 1px solid white;
+  justify-content: 7px;
+}
+.btn {
+  display: flex;
+  padding: 0 0 5px 120px;
+}
+.fa-linkedin {
+  color: rgb(126, 125, 125);
+  padding: 0 38px 0 0;
+  text-decoration: none;
+  font-size: 10mm;
+}
+.fa-dribbble {
+  color: rgb(126, 125, 125);
+  padding: 0 50px 0 0;
+  text-decoration: none;
+  font-size: 10mm;
+}
+.fa-twitter {
+  color: rgb(126, 125, 125);
+  padding: 0 38px 0 0;
+  text-decoration: none;
+  font-size: 10mm;
+}
+.usual {
+  color: rgb(126, 125, 125);
+}
+.all {
+  font-size: 5mm;
+  border-top: 1px solid rgb(228, 224, 224);
+  border-bottom: 1px solid rgb(233, 231, 231);
+}
+.main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  margin: 10px 440px 0 440px;
+  box-shadow: 2px 2px 20px 4px #ccc;
+}
+@media screen and (max-width: 800) {
+  .main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 20px 4px #ccc;
+  }
+}

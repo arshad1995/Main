@@ -1,0 +1,25 @@
+.image img {
+  width: 460px;
+  height: 630px;
+  border-radius: 6px;
+}
+.content1 {
+  position: absolute;
+  bottom: 0;
+  /* background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); */
+  color: #f1f1f1;
+  padding: 20px;
+}
+.content2 {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 10px;
+  border-radius: 0 50px 50px 0;
+}
+.all {
+  margin: 0 440px 0 440px;
+}

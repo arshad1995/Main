@@ -1,17 +1,19 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Card from "./Card";
-import "./App.css";
+
+import Image from "./Image";
+import NewsCard from "./NewsCard";
 
 class App extends Component {
   render() {
     return (
-      <div className="m">
-        <Card
-          name={"Arshad"}
-          company={"Xelpmoc"}
-          designation={"Developer"}
-          src={"https://www.w3schools.com/w3css/img_lights.jpg"}
-        />
+      <div>
+        <BrowserRouter>
+          <Route path="/" component={NewsCard} exact={true} />
+          <Route path="/image" component={Image} />
+          <Route path="/card" component={Card} />
+        </BrowserRouter>
       </div>
     );
   }

@@ -21,25 +21,22 @@ const Card = props => {
     <div className="main">
       <div className="profile">
         <img
-          src={
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdbAAHyRcuzYbJ0cesW64Eqk4E34PJe_yGZgHjc2dMIYfEpCNOlg"
-          }
+          src={"https://avatars1.githubusercontent.com/u/21080254?s=460&v=4"}
         />
-      </div>
-      <div className="text">
-        <h1>{props.name}</h1>
-        <h4>{props.company}</h4>
-        <p className="design">{props.designation}</p>
+        <div className="text">
+          <h1>{"Salman Khan"}</h1>
+          <h4>{"Xelpmoc"}</h4>
+          <p className="design">{"Developer"}</p>
+        </div>
       </div>
 
-      <div className="all">
-        <p className="usual">Usually collaborated with</p>
-        <p className="pics">
-          {pics.map(data => (
-            <img src={data.img} />
-          ))}
-        </p>
-      </div>
+      <p className="usual">Usually collaborated with</p>
+      <p className="pics">
+        {pics.map(data => (
+          <img src={data.img} />
+        ))}
+      </p>
+
       <div className="btn">
         <a href="#" className="fa fa-linkedin" />
 
